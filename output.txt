@@ -1,0 +1,87 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210722153717
+Username: *************
+RunAs User: *************
+Configuration Name: 
+Machine: ************* (Microsoft Windows NT 10.0.19041.0)
+Host Application: powershell.exe
+Process ID: 4148
+PSVersion: 5.1.19041.1023
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1023
+BuildVersion: 10.0.19041.1023
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is output.txt
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> mkdir folder1,folder2
+
+
+    Directory: c:\path\is\hidden\cbf\assessment-templates\scratch
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22/07/2021     15:37                folder1
+d-----        22/07/2021     15:37                folder2
+
+
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> echo "" > file1.txt
+>> ParameterBinding(Out-File): name="InputObject"; value=""
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> echo "" > file2.txt
+>> ParameterBinding(Out-File): name="InputObject"; value=""
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> echo "" > file3.txt
+>> ParameterBinding(Out-File): name="InputObject"; value=""
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> mv .\file1.txt .\folder1\
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> mv .\file2.txt .\folder2\
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> cd folder1
+PS c:\path\is\hidden\cbf\assessment-templates\scratch\folder1> dir
+
+
+    Directory: c:\path\is\hidden\cbf\assessment-templates\scratch\folder1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/07/2021     15:38              6 file1.txt
+
+
+PS c:\path\is\hidden\cbf\assessment-templates\scratch\folder1> fsutil file createnew full.txt 2097152
+
+PS c:\path\is\hidden\cbf\assessment-templates\scratch\folder1> cd ..
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> ls
+
+
+    Directory: c:\path\is\hidden\cbf\assessment-templates\scratch
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22/07/2021     15:41                folder1
+d-----        22/07/2021     15:39                folder2
+-a----        22/07/2021     15:38              6 file3.txt
+-a----        22/07/2021     15:37              0 output.txt
+
+
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> rm file3.txt
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> ls
+
+
+    Directory: c:\path\is\hidden\cbf\assessment-templates\scratch
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22/07/2021     15:41                folder1
+d-----        22/07/2021     15:39                folder2
+-a----        22/07/2021     15:37              0 output.txt
+
+
+PS c:\path\is\hidden\cbf\assessment-templates\scratch> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210722154138
+**********************
