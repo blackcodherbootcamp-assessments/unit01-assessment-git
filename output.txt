@@ -1,0 +1,18 @@
+Script started on 2021-07-25 21:11:06+01:00 [TERM="dumb" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+dev@ubuntu:~/Documents/exercise01$ mkdir folder1
+dev@ubuntu:~/Documents/exercise01$ mkdir folder2
+dev@ubuntu:~/Documents/exercise01$ touch file1.txt
+dev@ubuntu:~/Documents/exercise01$ touch file2.txt
+dev@ubuntu:~/Documents/exercise01$ touch file2.txt.txt 3.txt
+dev@ubuntu:~/Documents/exercise01$ mv file1.txt folder1
+dev@ubuntu:~/Documents/exercise01$ mv file2.txt folder2
+dev@ubuntu:~/Documents/exercise01$ cd folder1
+dev@ubuntu:~/Documents/exercise01/folder1$ ls
+file1.txt
+dev@ubuntu:~/Documents/exercise01/folder1$ cd ..
+dev@ubuntu:~/Documents/exercise01$ dd if=/dev/zero bs=1 count=0 seek=2m of=full.txt
+dev@ubuntu:~/Documents/exercise01$ rm file3.txt
+dev@ubuntu:~/Documents/exercise01$ exit
+exit
+
+Script done on 2021-07-25 21:22:28+01:00 [COMMAND_EXIT_CODE="0"]
