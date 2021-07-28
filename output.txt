@@ -9,8 +9,8 @@ dev@ubuntu:~/Documents/exercise01$ mv file2.txt folder2
 dev@ubuntu:~/Documents/exercise01$ cd folder1
 dev@ubuntu:~/Documents/exercise01/folder1$ ls
 file1.txt
+dev@ubuntu:~/Documents/exercise01$ pwd
 dev@ubuntu:~/Documents/exercise01/folder1$ cd ..
-dev@ubuntu:~/Documents/exercise01$ dd if=/dev/zero bs=1 count=0 seek=2m of=full.txt
 dev@ubuntu:~/Documents/exercise01$ rm file3.txt
 dev@ubuntu:~/Documents/exercise01$ exit
 exit
