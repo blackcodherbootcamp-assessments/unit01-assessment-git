@@ -1,0 +1,16 @@
+Script started on 2021-07-22 16:42:54+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="141" LINES="41"]
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# mkdri folder[1P folder[1P folder[1P folderd folderi folderr folder[C[C[C[C[C[C[C1
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# mkdir folder1[K2
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# touch file1.txt
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# touch file1.txt[1P.txt2.txt
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# touch file2.txt[1P.txt3.txt
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# mv file1.txt folder1
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# mv file1.txt folder1[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[K2
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# cd folder1
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2/folder1root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2/folder1# ls
+[0m[01;32mfile1.txt[0m
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2/folder1root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2/folder1# truncate -s 4m example.log[C[K[K[K[K[K[K[K[K[K[K[K[1P[1@2[C[Cfull.txt
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2# de[K[Krm file3.txt
+]0;root@HIDDEN: /mnt/path/is/hidden/cbf/assessment-templates/scratch2/folder1root@HIDDEN:/mnt/path/is/hidden/cbf/assessment-templates/scratch2/folder1# exit
+
+Script done on 2021-07-22 16:44:45+01:00 [COMMAND_EXIT_CODE="0"]
